@@ -1,4 +1,3 @@
-nside your blog/ directory create a file and name it atom.xml. Add this to file:
 
 ---
 layout: feed
