@@ -4,7 +4,7 @@ permalink: /
 <!-- title: <strong>Your</strong> Gecia Bravo-Hermsdorff -->
 title: <strong>Gecia</strong> Bravo-Hermsdorff
 <!-- description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc. -->
-description: Ph.D. computational neuroscience, Princeton University
+description: Ph.D. in computational neuroscience, Princeton University
 
 profile:
   align: right

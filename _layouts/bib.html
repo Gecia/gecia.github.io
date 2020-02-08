@@ -85,6 +85,15 @@
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
   {% endif %}
+  {% if entry.videosummary %}
+    [<a href="{{ entry.videosummary}}" target="_blank">Summary video (4m14s)</a>]
+  {% endif %}  
+  {% if entry.videoreductions %}
+  [<a href="{{ entry.videoreductions}}" target="_blank">Graph reduction playlist </a>]
+  {% endif %}  
+  {% if entry.data %}
+  [<a href="{{ entry.data}}" target="_blank">Dataset </a>]
+  {% endif %}   
   </span>
 
   <!-- Hidden abstract block -->
