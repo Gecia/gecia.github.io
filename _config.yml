@@ -102,7 +102,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Bravo-Hermsdorff
 
   style: apa
   locale: en
