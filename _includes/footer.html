@@ -1,6 +1,20 @@
 <footer>
 
   <div class="wrapper">
+<!--     &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}  -->
+     &copy;  {{ site.time | date: '%Y' }} {{ site.name }} {{ site.email }} 
+<!--     {{ site.footer_text }}
+    {% if site.last_updated %}
+        Last updated: {{ site.last_updated }}.
+    {% endif %} -->
+<!--     <p>By <a href="http://gecia.github.io">Gecia</p> -->
+  </div>
+
+</footer>
+
+<!-- <footer>
+
+  <div class="wrapper">
     &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
     {{ site.footer_text }}
     {% if site.last_updated %}
@@ -8,4 +22,5 @@
     {% endif %}
   </div>
 
-</footer>
+</footer> -->
+
