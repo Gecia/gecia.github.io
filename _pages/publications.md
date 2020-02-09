@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
+description: <i>*denotes equal contribution.</i>
 years: [2019,2018]
 ---
 
@@ -10,3 +10,5 @@ years: [2019,2018]
   <h3 class="year">{{y}}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
+
+<!-- <i>*denotes equal contribution.</i> -->
