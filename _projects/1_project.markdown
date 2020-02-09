@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Graph cumulants
-description: a project with a background image
+description: Under construction, check back soon! 
 img: /assets/img/StereographicLeft.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<!-- Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width. -->
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -47,7 +47,7 @@ You can also put regular text between your rows of images. Say you wanted to wri
 <br/><br/>
 
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
+The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: -->
 
 <!-- <div class="img_row">
     <img class="col two left" src="/img/6.jpg"/>

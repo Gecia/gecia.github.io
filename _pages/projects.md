@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 
+description: Under construction, please check back soon! 
 ---
 <!-- An assortment of research interests, of varying levels of completion, and in no particular order -->
 {% for project in site.projects %}
