@@ -409,8 +409,8 @@ but independent of the graph size once the subgraph densities are given.
     The first uses the empirical subgraph densities themselves as estimates of those of the underlying distribution. 
     The second test uses a new approach that converts these subgraph densities into estimates of the graph cumulants of the distribution 
     (without any increase in computational complexity). 
-    We demonstrate — via theory, simulation, and application to real data — the superior statistical power of using graph cumulants. I
-    n summary, when analyzing data using subgraph/motif densities, we suggest using the corresponding graph cumulants instead.
+    We demonstrate — via theory, simulation, and application to real data — the superior statistical power of using graph cumulants. 
+    In summary, when analyzing data using subgraph/motif densities, we suggest using the corresponding graph cumulants instead.
     </p>
   </span>
   
@@ -812,7 +812,13 @@ Modern statistical estimation is often performed in a distributed setting where 
   <!-- Hidden abstract block -->
     
   <span class="quickabstract hidden">
-    <p>Over a century ago, Thiele (1889) introduced cumulants, a concept now fundamental to the field of statistics, which has justifiably percolated throughout the scientific community. In this work, we introduce graph cumulants, their generalization to networks. This principled hierarchy of network statistics provides a framework to systematically describe and compare networks, naturally including those with additional features, such as directed edges, node attributes, and edge weights. Moreover, through the lens of the maximum entropy principle, these statistics induce a natural hierarchical family of network models. These models are immune to the "degeneracy problem", providing a principled prescription for obtaining distributions that are clustered around the properties of the network they intend to model.</p>
+    <p>Over a century ago, Thiele (1889) introduced cumulants, a concept now fundamental to the field of statistics, which has justifiably percolated throughout the scientific community. 
+      In this work, we introduce graph cumulants, their generalization to networks. 
+      This principled hierarchy of network statistics provides a framework to systematically describe and compare networks, 
+      naturally including those with additional features, such as directed edges, node attributes, and edge weights. 
+      Moreover, through the lens of the maximum entropy principle, these statistics induce a natural hierarchical family of network models. 
+      These models are immune to the "degeneracy problem", providing a principled prescription for obtaining distributions 
+      that are clustered around the properties of the network they intend to model.</p>
   </span>
   
 
@@ -912,21 +918,21 @@ from the insights afforded to neuroscience by the characterization of visual pri
 dissertation, we strive to quantify priors over abstract structures. In particular, we focus on
 graphs: the structure of interactions. 
 <br />
-<br />
+<!-- <br /> -->
 In Chapter 3, we describe the natural analogue of cumulants (e.g., mean, (co)variance,
 skew, kurtosis) for graphs, building a hierarchical description based on local correlations
 between an increasing number of connections. This provides a principled framework for
 quantifying the propensity of a network to display arbitrary substructures, and allows one to
 meaningfully compare networks of different sizes and edge densities.
 <br />
-<br />
+<!-- <br /> -->
 In Chapter 4, we analyze graph structure globally, via the dynamics of diffusion,
 providing an algorithm that reduces a graph while preserving its large-scale structure.
 Our framework analytically unifies two areas of research, namely graph sparsification
 (removing edges) and graph coarsening (merging nodes), and is competitive with current
 state-of-the-art algorithms.
 <br />
-<br />
+<!-- <br /> -->
 From a neuroscience perspective, we develop a novel method for quantifying human
 priors over graphs (Chapters 2 and 3). In Chapter 5, we apply this method to graphical
 representations of social and navigation tasks: two domains that have been relevant (over
@@ -935,7 +941,7 @@ non-trivial graphical structure. While some features appear to be general, such 
 preferred amount of sparsity as a function of graph size, other features appear to be
 domain-specific, such as the preference for triadic closure in social interactions.
 <br />
-<br />
+<!-- <br /> -->
 Through the development of principled methods for analyzing network structure and
 the use of an analytically tractable model of human learning on graphs, this work provides
 useful tools that could cross-pollinate with other active areas of research, such as artificial
@@ -1066,7 +1072,9 @@ intelligence.
   <!-- Hidden abstract block -->
     
   <span class="quickabstract hidden">
-    <p>The deletion of edges (sparsification) and the merging of adjacent vertices (coarsening) are two common methods for reducing a graph. We analytically unify these two operations using a single objective function based on the graph Laplacian pseudoinverse, providing a principled algorithm that simultaneously sparsifies and coarsens a graph while preserving its large-scale structure.</p>
+    <p>The deletion of edges (sparsification) and the merging of adjacent vertices (coarsening) are two common methods for reducing a graph. 
+      We analytically unify these two operations using a single objective function based on the graph Laplacian pseudoinverse, 
+      providing a principled algorithm that simultaneously sparsifies and coarsens a graph while preserving its large-scale structure.</p>
   </span>
   
 
